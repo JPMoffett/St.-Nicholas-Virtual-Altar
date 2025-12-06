@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>St.Nicholas Virtual Altar</title>
+  <style>
+    :root{
+      --bg: #333333;       /* charcoal grey background */
+      --text-color: #f0e905; /* change this to any font color you want */
+      --accent: #ffcc00;   /* optional accent for headings */
+    }
+
+    /* Reset / layout */
+    * { box-sizing: border-box; }
+    html, body {
+      height: 100%;
+      margin: 0;
+      background-color: var(--bg);
+      color: var(--text-color);
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+
+    /* Centering container */
+    .center-wrap {
+      min-height: 100vh;              /* full viewport height */
+      display: flex;
+      align-items: center;            /* vertical centering */
+      justify-content: center;        /* horizontal centering */
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .content {
+      width: min(80ch, 90%);
+      max-width: 900px;
+      line-height: 1.5;
+    }
+
+    h1 {
+      margin: 0 0 0.5rem 0;
+      font-size: clamp(1.6rem, 3.5vw, 2.8rem);
+      color: var(--accent); /* heading accent; change or remove if you want */
+    }
+
+    p {
+      margin: 0;
+      font-size: clamp(1rem, 1.8vw, 1.125rem);
+      color: var(--text-color);
+      word-wrap: break-word;
+    }
+
+    /* Optional: accessible focus outline for keyboard users */
+    a:focus, button:focus { outline: 3px solid #fff3; outline-offset: 3px; }
+  </style>
+</head>
+<body>
+  <div class="center-wrap">
+    <div class="content">
+      <h1>Saint Nicholas Virtual Altar</h1>
+      <p>This paragraph is centered in the middle of the page. The font color is controlled by</p>
+
+
+
+
+
+
+
+
+
+
+
+
+      
+    </div>
+  </div>
+</body>
+</html>
